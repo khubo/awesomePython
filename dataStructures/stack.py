@@ -26,7 +26,7 @@ class Stack:
         if self.empty():
             raise Exception('Stack is empty')
         else:
-            return self.list[len(self.list)]
+            return self.list[len(self.list) - 1]
 
     def size(self):
         if len(self.list):
